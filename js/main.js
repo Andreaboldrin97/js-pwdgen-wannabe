@@ -20,6 +20,7 @@ let userEmail = prompt('potresti darmi la tua e-mail ?')
 document.getElementById('email_user').innerHTML = (userEmail)
 
 document.getElementById('greetuser').innerHTML = ('Allora è un piacere conoscerti, ') + (nameUser) + (' ') + (userSurname) + (' o forse dovrei chiamarti ') + (userId)
+document.getElementById('userpass').innerHTML = ('La tua password sarà : ') + (userId) + (userAge)
 
 
 console.log (userId, nameUser, userSurname, userAge, favoriteUserColor, userEmail)
