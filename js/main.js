@@ -19,7 +19,7 @@ document.getElementById('favorite_user_color').innerHTML = (favoriteUserColor)
 let userEmail = prompt('potresti darmi la tua e-mail ?')
 document.getElementById('email_user').innerHTML = (userEmail)
 
-document.getElementById('greetuser').innerHTML = ('Allora è un piacere conoscerti, ') + (nameUser) + (userSurname) + ('o forse dovrei chiamarti ') + (userId)
+document.getElementById('greetuser').innerHTML = ('Allora è un piacere conoscerti, ') + (nameUser) + (' ') + (userSurname) + (' o forse dovrei chiamarti ') + (userId)
 
 
 console.log (userId, nameUser, userSurname, userAge, favoriteUserColor, userEmail)
