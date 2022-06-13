@@ -4,12 +4,12 @@ let userId = prompt('inserisci l\'id che vuoi usare')
 document.getElementById('user_id').innerHTML = userId
 
 // dichiarazione variabile nameUser
-let nameUser = prompt('Qual\'è il tuo nome ?')
+const nameUser = prompt('Qual\'è il tuo nome ?')
 //prendo l'elemento HTML con id (name_user) e ne aggiungiamo il contenuto inserito dall'utente
 document.getElementById('name_user').innerHTML = nameUser
 
 // dichiarazione variabile userSurname
-let userSurname = prompt('Il tuo cognome invece ?')
+const userSurname = prompt('Il tuo cognome invece ?')
 //prendo l'elemento HTML con id (surname_user) e ne aggiungiamo il contenuto inserito dall'utente
 document.getElementById('surname_user').innerHTML = userSurname
 
@@ -24,12 +24,12 @@ let userYearOfBirth = 2022 - userAge
 document.getElementById('user_year_of_birth').innerHTML = userYearOfBirth
 
 // dichiarazione variabile favoriteUserColo
-let favoriteUserColor= prompt('Il tuo colore preferito invece ?')
+const favoriteUserColor= prompt('Il tuo colore preferito invece ?')
 //prendo l'elemento HTML con id (favorite_user_color) e ne aggiungiamo il contenuto inserito dall'utente
 document.getElementById('favorite_user_color').innerHTML = favoriteUserColor
 
 // dichiarazione variabile userEmail
-let userEmail = prompt('potresti darmi la tua e-mail ?')
+const userEmail = prompt('potresti darmi la tua e-mail ?')
 //prendo l'elemento HTML con id (email_user) e ne aggiungiamo il contenuto inserito dall'utente
 document.getElementById('email_user').innerHTML = userEmail
 
